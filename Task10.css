@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    background-image: url(./image/fontbg.png);
+}
+label,input,a{
+    display: block;
+    margin-bottom: 20px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+form{  /* main is a a parent */
+    background-color: white;
+    width: 30%;
+    border-radius: 5px;
+    padding: 30px;
+    color: black;
+}
+label{
+    font-size: 30px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: dotted;
+    text-align: end;
+    margin: 0px;
+    color: royalblue;
+   
+}
+h2,h3,p{
+    text-align: center;
+    color: black;
+}
+button{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 15px;
+    color:black;
+    background-color: rgb(228, 228, 55);
+    font-size: 15px;
+    border: 2px solid darkblue;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+h3{
+    text-align: center;
+    color:yellow;
+    letter-spacing: 7px;
+}
+input:hover{
+    border: 2px solid blue;
+}
